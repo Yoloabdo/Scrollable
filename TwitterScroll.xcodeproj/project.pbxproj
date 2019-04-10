@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA92D88E225EA17300A96732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA92D88D225EA17300A96732 /* Main.storyboard */; };
+		FA92D890225EA17A00A96732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92D88F225EA17900A96732 /* ViewController.swift */; };
 		FAB0250222579C49005829BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0250122579C49005829BF /* AppDelegate.swift */; };
 		FAB0250922579C4A005829BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0250822579C4A005829BF /* Assets.xcassets */; };
 		FAB0250C22579C4A005829BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0250A22579C4A005829BF /* LaunchScreen.storyboard */; };
-		FAB0251522579C60005829BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0251322579C5F005829BF /* Main.storyboard */; };
-		FAB0251622579C60005829BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0251422579C60005829BF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA92D88D225EA17300A96732 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA92D88F225EA17900A96732 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB024FE22579C49005829BF /* TwitterScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0250122579C49005829BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB0250822579C4A005829BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB0250B22579C4A005829BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB0250D22579C4A005829BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAB0251322579C5F005829BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Desktop/paymentTest/Scrollable/Main.storyboard; sourceTree = "<group>"; };
-		FAB0251422579C60005829BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Desktop/paymentTest/Scrollable/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		FAB0250022579C49005829BF /* TwitterScroll */ = {
 			isa = PBXGroup;
 			children = (
-				FAB0251322579C5F005829BF /* Main.storyboard */,
-				FAB0251422579C60005829BF /* ViewController.swift */,
+				FA92D88F225EA17900A96732 /* ViewController.swift */,
+				FA92D88D225EA17300A96732 /* Main.storyboard */,
 				FAB0250122579C49005829BF /* AppDelegate.swift */,
 				FAB0250822579C4A005829BF /* Assets.xcassets */,
 				FAB0250A22579C4A005829BF /* LaunchScreen.storyboard */,
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB0251522579C60005829BF /* Main.storyboard in Resources */,
 				FAB0250C22579C4A005829BF /* LaunchScreen.storyboard in Resources */,
 				FAB0250922579C4A005829BF /* Assets.xcassets in Resources */,
+				FA92D88E225EA17300A96732 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB0251622579C60005829BF /* ViewController.swift in Sources */,
+				FA92D890225EA17A00A96732 /* ViewController.swift in Sources */,
 				FAB0250222579C49005829BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
